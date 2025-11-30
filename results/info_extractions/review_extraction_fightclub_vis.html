@@ -1,0 +1,254 @@
+<style>
+.lx-highlight { position: relative; border-radius:3px; padding:1px 2px;}
+.lx-highlight .lx-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 4px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  max-width: 240px;
+  white-space: normal;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.lx-highlight:hover .lx-tooltip { visibility: visible; opacity:1; }
+.lx-animated-wrapper { max-width: 100%; font-family: Arial, sans-serif; }
+.lx-controls {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 8px;
+  padding: 12px; margin-bottom: 16px;
+}
+.lx-button-row {
+  display: flex; justify-content: center; gap: 8px; margin-bottom: 12px;
+}
+.lx-control-btn {
+  background: #4285f4; color: white; border: none; border-radius: 4px;
+  padding: 8px 16px; cursor: pointer; font-size: 13px; font-weight: 500;
+  transition: background-color 0.2s;
+}
+.lx-control-btn:hover { background: #3367d6; }
+.lx-progress-container {
+  margin-bottom: 8px;
+}
+.lx-progress-slider {
+  width: 100%; margin: 0; appearance: none; height: 6px;
+  background: #ddd; border-radius: 3px; outline: none;
+}
+.lx-progress-slider::-webkit-slider-thumb {
+  appearance: none; width: 18px; height: 18px; background: #4285f4;
+  border-radius: 50%; cursor: pointer;
+}
+.lx-progress-slider::-moz-range-thumb {
+  width: 18px; height: 18px; background: #4285f4; border-radius: 50%;
+  cursor: pointer; border: none;
+}
+.lx-status-text {
+  text-align: center; font-size: 12px; color: #666; margin-top: 4px;
+}
+.lx-text-window {
+  font-family: monospace; white-space: pre-wrap; border: 1px solid #90caf9;
+  padding: 12px; max-height: 260px; overflow-y: auto; margin-bottom: 12px;
+  line-height: 1.6;
+}
+.lx-attributes-panel {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 6px;
+  padding: 8px 10px; margin-top: 8px; font-size: 13px;
+}
+.lx-current-highlight {
+  border-bottom: 4px solid #ff4444;
+  font-weight: bold;
+  animation: lx-pulse 1s ease-in-out;
+}
+@keyframes lx-pulse {
+  0% { text-decoration-color: #ff4444; }
+  50% { text-decoration-color: #ff0000; }
+  100% { text-decoration-color: #ff4444; }
+}
+.lx-legend {
+  font-size: 12px; margin-bottom: 8px;
+  padding-bottom: 8px; border-bottom: 1px solid #e0e0e0;
+}
+.lx-label {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 4px;
+  color: #000;
+}
+.lx-attr-key {
+  font-weight: 600;
+  color: #1565c0;
+  letter-spacing: 0.3px;
+}
+.lx-attr-value {
+  font-weight: 400;
+  opacity: 0.85;
+  letter-spacing: 0.2px;
+}
+
+/* Add optimizations with larger fonts and better readability for GIFs */
+.lx-gif-optimized .lx-text-window { font-size: 16px; line-height: 1.8; }
+.lx-gif-optimized .lx-attributes-panel { font-size: 15px; }
+.lx-gif-optimized .lx-current-highlight { text-decoration-thickness: 4px; }
+</style>
+    <div class="lx-animated-wrapper lx-gif-optimized">
+      <div class="lx-attributes-panel">
+        <div class="lx-legend">Highlights Legend: <span class="lx-label" style="background-color:#D2E3FC;">opinion_statement</span></div>
+        <div id="attributesContainer"></div>
+      </div>
+      <div class="lx-text-window" id="textWindow">
+        **Page 1**
+&quot;&quot;&quot;
+Fight Club – jackdurden.com Analysis: 
+Summary 
+🎯 Core Thesis 
+●​ The film version of Fight Club <span class="lx-highlight lx-current-highlight" data-idx="0" style="background-color:#D2E3FC;">should be interpreted as its own standalone work — not as 
+an adaptation tied strictly to the novel</span>.​
+
+●​ According to jackdurden.com, <span class="lx-highlight" data-idx="1" style="background-color:#D2E3FC;">many major characters in the film — including Marla 
+Singer, Tyler Durden, and other side characters — are not “real.” Rather, they’re 
+psychological projections or alternate personalities of the narrator</span> (often referred to as 
+“Jack” in the script).​
+
+
+🔍 Key “Rules” / Evidence &amp; Interpretation 
+Rule #1: Marla Singer is Not Real 
+●​ <span class="lx-highlight" data-idx="2" style="background-color:#D2E3FC;">Marla and Tyler share remarkably similar clothing, accessories, posture, even smoking 
+habits — suggesting they represent facets of the same psyche rather than distinct 
+individuals</span>.​
+
+●​ In one hotel-scene with a convex mirror, <span class="lx-highlight" data-idx="3" style="background-color:#D2E3FC;">Marla (or Tyler) has no reflection — an 
+indication (according to the site) that they don’t “exist” independently</span>.​
+
+●​ The “laundromat” scene: Marla removes men’s jeans from dryers, then later appears 
+wearing a feminine dress (which she says she got at a thrift store). The site reads this as 
+symbolic: <span class="lx-highlight" data-idx="4" style="background-color:#D2E3FC;">the narrator shedding his masculinity and “becoming” Marla</span>.​
+
+Rule #2: Other Characters Also “Not Real” 
+●​ <span class="lx-highlight" data-idx="5" style="background-color:#D2E3FC;">Figures such as Bob Paulson, Raymond K. Hessel, members of the underground group 
+(e.g. “Project Mayhem”), even a support-group woman named Chloe — are also treated 
+as mental constructs, not objective beings</span>.​
+&quot;&quot;&quot;
+
+**Page 2**
+&quot;&quot;&quot;
+●​ <span class="lx-highlight" data-idx="6" style="background-color:#D2E3FC;">The “house” used by Tyler and the group (the “Paper Street House”) is argued to never 
+physically exist — instead it is a “psychological space,” a metaphor for the narrator’s 
+mental breakdown</span>.​
+
+On Book vs Film: Differences Are Intentional 
+●​ The site emphasizes that comparing the film to the novel misses the point. <span class="lx-highlight" data-idx="7" style="background-color:#D2E3FC;">The film is a 
+deliberate re-interpretation, a new artistic work. Critiques based on the book are 
+dismissed as irrelevant</span>. ​
+
+Addressing Common Counter-Arguments 
+●​ When people argue “others interact with Marla/Tyler, so they must be real,” the site 
+counters: those interactions can still be projections of the narrator’s fractured psyche. 
+Even shared scenes can be hallucinated — so <span class="lx-highlight" data-idx="8" style="background-color:#D2E3FC;">nothing objective needs to be “real</span>.”​
+
+
+🧠 Overall Conclusion (per jackdurden.com) 
+What we watch in Fight Club — from relationships, group membership, underground activism, to 
+interpersonal conflicts — isn’t necessarily external or objective. Instead, <span class="lx-highlight" data-idx="9" style="background-color:#D2E3FC;">the film (as interpreted) 
+maps a descent into disordered identity</span>: <span class="lx-highlight" data-idx="10" style="background-color:#D2E3FC;">the narrator is trapped in inner turmoil</span>, projecting 
+multiple personas (Marla, Tyler, Bob, etc.) to cope with his existential and psychological crises. 
+In that light, <span class="lx-highlight" data-idx="11" style="background-color:#D2E3FC;">“everything” is internal: a metaphorical psychodrama.</span>  
+
+🧾 Context in Broader Interpretation of Fight Club 
+While jackdurden.com’s <span class="lx-highlight" data-idx="12" style="background-color:#D2E3FC;">interpretation is extreme</span> (arguing nearly all characters are 
+hallucinations), it fits into a broader wave of readings of Fight Club that <span class="lx-highlight" data-idx="13" style="background-color:#D2E3FC;">view the film as a 
+critique of modern alienation, consumerism, and fractured masculinity.</span> Scholars have argued 
+the film <span class="lx-highlight" data-idx="14" style="background-color:#D2E3FC;">uses violence, degradation, and disorientation to illustrate psychological and societal 
+breakdown.</span>
+&quot;&quot;&quot;
+
+
+      </div>
+      <div class="lx-controls">
+        <div class="lx-button-row">
+          <button class="lx-control-btn" onclick="playPause()">▶️ Play</button>
+          <button class="lx-control-btn" onclick="prevExtraction()">⏮ Previous</button>
+          <button class="lx-control-btn" onclick="nextExtraction()">⏭ Next</button>
+        </div>
+        <div class="lx-progress-container">
+          <input type="range" id="progressSlider" class="lx-progress-slider"
+                 min="0" max="14" value="0"
+                 onchange="jumpToExtraction(this.value)">
+        </div>
+        <div class="lx-status-text">
+          Entity <span id="entityInfo">1/15</span> |
+          Pos <span id="posInfo">[112-211]</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function() {
+        const extractions = [{"index": 0, "class": "opinion_statement", "text": "should be interpreted as its own standalone work \u2014 not as an adaptation tied strictly to the novel", "color": "#D2E3FC", "startPos": 112, "endPos": 211, "beforeText": "**Page 1**\n&quot;&quot;&quot;\nFight Club \u2013 jackdurden.com Analysis: \nSummary \n\ud83c\udfaf Core Thesis \n\u25cf\u200b The film version of Fight Club ", "extractionText": "should be interpreted as its own standalone work \u2014 not as \nan adaptation tied strictly to the novel", "afterText": ".\u200b\n \n\u25cf\u200b According to jackdurden.com, many major characters in the film \u2014 including Marla \nSinger, Tyler Durden, and other side characters \u2014 are not \u201cr", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film version of Fight Club</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">its own standalone work</span>}</div>"}, {"index": 1, "class": "opinion_statement", "text": "many major characters in the film \u2014 including Marla Singer, Tyler Durden, and other side characters \u2014 are not \u201creal.\u201d Rather, they\u2019re psychological projections or alternate personalities of the narrator", "color": "#D2E3FC", "startPos": 248, "endPos": 452, "beforeText": "of Fight Club should be interpreted as its own standalone work \u2014 not as \nan adaptation tied strictly to the novel.\u200b\n \n\u25cf\u200b According to jackdurden.com, ", "extractionText": "many major characters in the film \u2014 including Marla \nSinger, Tyler Durden, and other side characters \u2014 are not \u201creal.\u201d Rather, they\u2019re \npsychological projections or alternate personalities of the narrator", "afterText": " (often referred to as \n\u201cJack\u201d in the script).\u200b\n \n \n\ud83d\udd0d Key \u201cRules\u201d / Evidence &amp; Interpretation \nRule #1: Marla Singer is Not Real \n\u25cf\u200b Marla and Tyler s", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Many major characters in the film</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">not &#x27;real.&#x27; Rather, they\u2019re psychological projections or alternate personalities of the narrator</span>}</div>"}, {"index": 2, "class": "opinion_statement", "text": "Marla and Tyler share remarkably similar clothing, accessories, posture, even smoking habits \u2014 suggesting they represent facets of the same psyche rather than distinct individuals", "color": "#D2E3FC", "startPos": 585, "endPos": 766, "beforeText": "s of the narrator (often referred to as \n\u201cJack\u201d in the script).\u200b\n \n \n\ud83d\udd0d Key \u201cRules\u201d / Evidence &amp; Interpretation \nRule #1: Marla Singer is Not Real \n\u25cf\u200b ", "extractionText": "Marla and Tyler share remarkably similar clothing, accessories, posture, even smoking \nhabits \u2014 suggesting they represent facets of the same psyche rather than distinct \nindividuals", "afterText": ".\u200b\n \n\u25cf\u200b In one hotel-scene with a convex mirror, Marla (or Tyler) has no reflection \u2014 an \nindication (according to the site) that they don\u2019t \u201cexist\u201d i", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Marla and Tyler</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">suggesting they represent facets of the same psyche rather than distinct individuals</span>}</div>"}, {"index": 3, "class": "opinion_statement", "text": "Marla (or Tyler) has no reflection \u2014 an indication (according to the site) that they don\u2019t \u201cexist\u201d independently", "color": "#D2E3FC", "startPos": 815, "endPos": 928, "beforeText": "oking \nhabits \u2014 suggesting they represent facets of the same psyche rather than distinct \nindividuals.\u200b\n \n\u25cf\u200b In one hotel-scene with a convex mirror, ", "extractionText": "Marla (or Tyler) has no reflection \u2014 an \nindication (according to the site) that they don\u2019t \u201cexist\u201d independently", "afterText": ".\u200b\n \n\u25cf\u200b The \u201claundromat\u201d scene: Marla removes men\u2019s jeans from dryers, then later appears \nwearing a feminine dress (which she says she got at a thrif", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Marla (or Tyler)</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">no reflection \u2014 an indication ... that they don\u2019t &#x27;exist&#x27; independently</span>}</div>"}, {"index": 4, "class": "opinion_statement", "text": "the narrator shedding his masculinity and \u201cbecoming\u201d Marla", "color": "#D2E3FC", "startPos": 1122, "endPos": 1180, "beforeText": "s men\u2019s jeans from dryers, then later appears \nwearing a feminine dress (which she says she got at a thrift store). The site reads this as \nsymbolic: ", "extractionText": "the narrator shedding his masculinity and \u201cbecoming\u201d Marla", "afterText": ".\u200b\n \nRule #2: Other Characters Also \u201cNot Real\u201d \n\u25cf\u200b Figures such as Bob Paulson, Raymond K. Hessel, members of the underground group \n(e.g. \u201cProject Ma", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The laundromat scene</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">symbolic: the narrator shedding his masculinity and &#x27;becoming&#x27; Marla</span>}</div>"}, {"index": 5, "class": "opinion_statement", "text": "Figures such as Bob Paulson, Raymond K. Hessel, members of the underground group (e.g. \u201cProject Mayhem\u201d), even a support-group woman named Chloe \u2014 are also treated as mental constructs, not objective beings", "color": "#D2E3FC", "startPos": 1231, "endPos": 1439, "beforeText": "tore). The site reads this as \nsymbolic: the narrator shedding his masculinity and \u201cbecoming\u201d Marla.\u200b\n \nRule #2: Other Characters Also \u201cNot Real\u201d \n\u25cf\u200b ", "extractionText": "Figures such as Bob Paulson, Raymond K. Hessel, members of the underground group \n(e.g. \u201cProject Mayhem\u201d), even a support-group woman named Chloe \u2014 are also treated \nas mental constructs, not objective beings", "afterText": ".\u200b\n&quot;&quot;&quot;\n\n**Page 2**\n&quot;&quot;&quot;\n\u25cf\u200b The \u201chouse\u201d used by Tyler and the group (the \u201cPaper Street House\u201d) is argued to never \nphysically exist \u2014 instead it is a \u201cp", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Other characters</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">treated as mental constructs, not objective beings</span>}</div>"}, {"index": 6, "class": "opinion_statement", "text": "The \u201chouse\u201d used by Tyler and the group (the \u201cPaper Street House\u201d) is argued to never physically exist \u2014 instead it is a \u201cpsychological space,\u201d a metaphor for the narrator\u2019s mental breakdown", "color": "#D2E3FC", "startPos": 1465, "endPos": 1657, "beforeText": ".g. \u201cProject Mayhem\u201d), even a support-group woman named Chloe \u2014 are also treated \nas mental constructs, not objective beings.\u200b\n&quot;&quot;&quot;\n\n**Page 2**\n&quot;&quot;&quot;\n\u25cf\u200b ", "extractionText": "The \u201chouse\u201d used by Tyler and the group (the \u201cPaper Street House\u201d) is argued to never \nphysically exist \u2014 instead it is a \u201cpsychological space,\u201d a metaphor for the narrator\u2019s \nmental breakdown", "afterText": ".\u200b\n \nOn Book vs Film: Differences Are Intentional \n\u25cf\u200b The site emphasizes that comparing the film to the novel misses the point. The film is a \ndelibe", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The Paper Street House</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">never physically exist \u2014 instead it is a &#x27;psychological space,&#x27; a metaphor for the narrator\u2019s mental breakdown</span>}</div>"}, {"index": 7, "class": "opinion_statement", "text": "The film is a deliberate re-interpretation, a new artistic work. Critiques based on the book are dismissed as irrelevant", "color": "#D2E3FC", "startPos": 1786, "endPos": 1908, "beforeText": "r\u2019s \nmental breakdown.\u200b\n \nOn Book vs Film: Differences Are Intentional \n\u25cf\u200b The site emphasizes that comparing the film to the novel misses the point. ", "extractionText": "The film is a \ndeliberate re-interpretation, a new artistic work. Critiques based on the book are \ndismissed as irrelevant", "afterText": ". \u200b\n \nAddressing Common Counter-Arguments \n\u25cf\u200b When people argue \u201cothers interact with Marla/Tyler, so they must be real,\u201d the site \ncounters: those in", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Positive</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">a deliberate re-interpretation, a new artistic work</span>}</div>"}, {"index": 8, "class": "opinion_statement", "text": "nothing objective needs to be \u201creal.\u201d", "color": "#D2E3FC", "startPos": 2175, "endPos": 2210, "beforeText": "al,\u201d the site \ncounters: those interactions can still be projections of the narrator\u2019s fractured psyche. \nEven shared scenes can be hallucinated \u2014 so ", "extractionText": "nothing objective needs to be \u201creal", "afterText": ".\u201d\u200b\n \n \n\ud83e\udde0 Overall Conclusion (per jackdurden.com) \nWhat we watch in Fight Club \u2014 from relationships, group membership, underground activism, to \ninter", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">objective reality</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Negative</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">nothing objective needs to be real</span>}</div>"}, {"index": 9, "class": "opinion_statement", "text": "the film (as interpreted) maps a descent into disordered identity", "color": "#D2E3FC", "startPos": 2431, "endPos": 2497, "beforeText": "ht Club \u2014 from relationships, group membership, underground activism, to \ninterpersonal conflicts \u2014 isn\u2019t necessarily external or objective. Instead, ", "extractionText": "the film (as interpreted) \nmaps a descent into disordered identity", "afterText": ": the narrator is trapped in inner turmoil, projecting \nmultiple personas (Marla, Tyler, Bob, etc.) to cope with his existential and psychological cri", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Negative</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">maps a descent into disordered identity</span>}</div>"}, {"index": 10, "class": "opinion_statement", "text": "the narrator is trapped in inner turmoil", "color": "#D2E3FC", "startPos": 2499, "endPos": 2539, "beforeText": ", to \ninterpersonal conflicts \u2014 isn\u2019t necessarily external or objective. Instead, the film (as interpreted) \nmaps a descent into disordered identity: ", "extractionText": "the narrator is trapped in inner turmoil", "afterText": ", projecting \nmultiple personas (Marla, Tyler, Bob, etc.) to cope with his existential and psychological crises. \nIn that light, \u201ceverything\u201d is inter", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The narrator</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Negative</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">trapped in inner turmoil</span>}</div>"}, {"index": 11, "class": "opinion_statement", "text": "\u201ceverything\u201d is internal: a metaphorical psychodrama.", "color": "#D2E3FC", "startPos": 2668, "endPos": 2721, "beforeText": "pped in inner turmoil, projecting \nmultiple personas (Marla, Tyler, Bob, etc.) to cope with his existential and psychological crises. \nIn that light, ", "extractionText": "\u201ceverything\u201d is internal: a metaphorical psychodrama.", "afterText": "  \n \n\ud83e\uddfe Context in Broader Interpretation of Fight Club \nWhile jackdurden.com\u2019s interpretation is extreme (arguing nearly all characters are \nhallucina", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film&#x27;s narrative</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Negative</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">everything is internal: a metaphorical psychodrama</span>}</div>"}, {"index": 12, "class": "opinion_statement", "text": "interpretation is extreme", "color": "#D2E3FC", "startPos": 2800, "endPos": 2825, "beforeText": ". \nIn that light, \u201ceverything\u201d is internal: a metaphorical psychodrama.  \n \n\ud83e\uddfe Context in Broader Interpretation of Fight Club \nWhile jackdurden.com\u2019s ", "extractionText": "interpretation is extreme", "afterText": " (arguing nearly all characters are \nhallucinations), it fits into a broader wave of readings of Fight Club that view the film as a \ncritique of moder", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">jackdurden.com\u2019s interpretation</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Negative</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">extreme</span>}</div>"}, {"index": 13, "class": "opinion_statement", "text": "view the film as a critique of modern alienation, consumerism, and fractured masculinity.", "color": "#D2E3FC", "startPos": 2938, "endPos": 3028, "beforeText": "urden.com\u2019s interpretation is extreme (arguing nearly all characters are \nhallucinations), it fits into a broader wave of readings of Fight Club that ", "extractionText": "view the film as a \ncritique of modern alienation, consumerism, and fractured masculinity.", "afterText": " Scholars have argued \nthe film uses violence, degradation, and disorientation to illustrate psychological and societal \nbreakdown.\n&quot;&quot;&quot;\n\n", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">Readings of Fight Club</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Neutral</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">critique of modern alienation, consumerism, and fractured masculinity</span>}</div>"}, {"index": 14, "class": "opinion_statement", "text": "uses violence, degradation, and disorientation to illustrate psychological and societal breakdown.", "color": "#D2E3FC", "startPos": 3060, "endPos": 3159, "beforeText": "readings of Fight Club that view the film as a \ncritique of modern alienation, consumerism, and fractured masculinity. Scholars have argued \nthe film ", "extractionText": "uses violence, degradation, and disorientation to illustrate psychological and societal \nbreakdown.", "afterText": "\n&quot;&quot;&quot;\n\n", "attributesHtml": "<div><strong>class:</strong> opinion_statement</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">subject</span>: <span class=\"lx-attr-value\">The film</span>, <span class=\"lx-attr-key\">sentiment</span>: <span class=\"lx-attr-value\">Negative</span>, <span class=\"lx-attr-key\">key_phrase</span>: <span class=\"lx-attr-value\">illustrate psychological and societal breakdown</span>}</div>"}];
+        let currentIndex = 0;
+        let isPlaying = false;
+        let animationInterval = null;
+        let animationSpeed = 1.0;
+
+        function updateDisplay() {
+          const extraction = extractions[currentIndex];
+          if (!extraction) return;
+
+          document.getElementById('attributesContainer').innerHTML = extraction.attributesHtml;
+          document.getElementById('entityInfo').textContent = (currentIndex + 1) + '/' + extractions.length;
+          document.getElementById('posInfo').textContent = '[' + extraction.startPos + '-' + extraction.endPos + ']';
+          document.getElementById('progressSlider').value = currentIndex;
+
+          const playBtn = document.querySelector('.lx-control-btn');
+          if (playBtn) playBtn.textContent = isPlaying ? '⏸ Pause' : '▶️ Play';
+
+          const prevHighlight = document.querySelector('.lx-text-window .lx-current-highlight');
+          if (prevHighlight) prevHighlight.classList.remove('lx-current-highlight');
+          const currentSpan = document.querySelector('.lx-text-window span[data-idx="' + currentIndex + '"]');
+          if (currentSpan) {
+            currentSpan.classList.add('lx-current-highlight');
+            currentSpan.scrollIntoView({block: 'center', behavior: 'smooth'});
+          }
+        }
+
+        function nextExtraction() {
+          currentIndex = (currentIndex + 1) % extractions.length;
+          updateDisplay();
+        }
+
+        function prevExtraction() {
+          currentIndex = (currentIndex - 1 + extractions.length) % extractions.length;
+          updateDisplay();
+        }
+
+        function jumpToExtraction(index) {
+          currentIndex = parseInt(index);
+          updateDisplay();
+        }
+
+        function playPause() {
+          if (isPlaying) {
+            clearInterval(animationInterval);
+            isPlaying = false;
+          } else {
+            animationInterval = setInterval(nextExtraction, animationSpeed * 1000);
+            isPlaying = true;
+          }
+          updateDisplay();
+        }
+
+        window.playPause = playPause;
+        window.nextExtraction = nextExtraction;
+        window.prevExtraction = prevExtraction;
+        window.jumpToExtraction = jumpToExtraction;
+
+        updateDisplay();
+      })();
+    </script>
